@@ -150,6 +150,9 @@
     <ClInclude Include="..\samples\json_parser\ajv\json_tests.h" />
     <ClInclude Include="..\samples\json_parser\ajv\json_view.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
